@@ -1,8 +1,7 @@
 import { CSSProperties } from "react";
 import { get } from "lodash";
-import settings from "@/10mf/config";
+import settings from "../10mf/config";
 import MuiToolTip from "@mui/material/Tooltip";
-import { withStyles, Theme } from "@mui/material/styles";
 
 export const theme: {
   primaryColor: string;
@@ -42,11 +41,6 @@ export const fieldset: CSSProperties = {
   textAlign: "left",
 };
 
-export const ToolTip = (withStyles((theme: Theme) => ({
-  tooltip: {
-    fontSize: 14,
-    padding: 5,
-  },
-}))as any)(MuiToolTip);
+export const ToolTip = MuiToolTip;
 
 export default theme;

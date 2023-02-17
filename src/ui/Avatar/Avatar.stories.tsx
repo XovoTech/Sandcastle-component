@@ -1,8 +1,8 @@
 import * as React from "react";
 import gravatar from "gravatar";
-import { Avatar, ListItem, MenuButton } from "@/ui";
+import { Avatar, ListItem, MenuButton } from "../";
 
-import { FixedPositions } from "@/ui/types";
+import { FixedPositions } from "../types";
 
 export default {
   title: "Components/Basic UI/Avatar",

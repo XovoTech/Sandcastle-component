@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Button } from "@/ui";
+import { Button } from "../";
 
 export default {
   title: "Components/Basic UI/Button",

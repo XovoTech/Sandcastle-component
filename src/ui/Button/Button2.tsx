@@ -2,7 +2,7 @@ import * as React from "react";
 import { Button as ButtonMUI, IconButton } from '@mui/material';
 import Icon from '@mui/material/Icon'
 import Fab from '@mui/material/Fab';
-import theme from '@/ui/theme'
+import theme from '../theme'
 import { ButtonProps } from "./Button.types";
 import { FixedPositions } from "../types";
 import styles from './style'

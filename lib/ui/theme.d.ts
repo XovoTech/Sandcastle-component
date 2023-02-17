@@ -1,4 +1,5 @@
 import { CSSProperties } from "react";
+import MuiToolTip from "@mui/material/Tooltip";
 export declare const theme: {
     primaryColor: string;
     secondaryColor: string;
@@ -9,5 +10,5 @@ export declare const theme: {
     altColors: string[];
 };
 export declare const fieldset: CSSProperties;
-export declare const ToolTip: any;
+export declare const ToolTip: typeof MuiToolTip;
 export default theme;

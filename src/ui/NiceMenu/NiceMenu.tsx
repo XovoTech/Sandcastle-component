@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Menu } from "@/ui";
+import { Menu } from "../Menu";
 
 import niceMenuStyle from "./style";
 import { NiceMenuProps } from "./NiceMenu.types";

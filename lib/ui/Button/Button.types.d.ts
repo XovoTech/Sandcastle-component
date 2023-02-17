@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 import { IconList } from "../FontIcon";
-import { FixedPositions } from "@/ui/types";
+import { FixedPositions } from "../types";
 export interface ButtonProps {
     /**
      * An optional className to apply to the button.
